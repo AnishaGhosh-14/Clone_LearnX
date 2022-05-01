@@ -1,0 +1,349 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: #1E2024;
+    overflow-x: hidden;
+
+}
+
+.blue-box{
+    position: fixed;
+   z-index: -1;
+}
+.big{
+    width:50%;
+}
+.small{
+    width: 20%;
+}
+
+.top{
+    background-color: #1E2024;
+    position: fixed;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding: 19px 100px 18px 60px;
+    z-index: 3;
+    box-shadow: 2px 2px 20px rgb(22 21 21);
+
+}
+.profile{
+    position: fixed;
+    left : 89%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 89%;
+
+
+}
+.profile2{
+    position: fixed;
+    left : 89%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 93%;
+
+}
+
+.icon{
+    color: aliceblue;
+    font-size: 1.5rem;
+}
+
+/* parent */
+.main-box{
+    margin-top: 16vh;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+    
+   
+}
+/* heading */
+.heading{
+    
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.0em;
+    text-align: center;
+    text-shadow: 2px 3px black;
+    letter-spacing: 0.1rem;
+    font-weight: 700;
+    
+
+}
+.heading h1{
+    text-align: center;
+    padding-bottom: 39px;
+    padding-top: 10px;
+    word-spacing: 2;
+}
+.text-heading{
+     color: white;
+    width: 50%;
+     padding: 20px;
+
+}
+.text-heading2{
+    position: relative;
+    left: 14%;
+    margin-top: 20px;
+}
+.text-heading h2{
+    font-family:  Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 33px;
+    margin-bottom: 21px;
+    
+}
+.text-heading p{
+    font-family:  Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 16px;
+    line-height: 18px;
+    margin-bottom: 21px;
+
+}
+.bottom{
+    display: flex;
+    width: 100%;
+    padding: 10px 40px 40px 40px;
+    background: rgba(0,0,0,0.14);
+    height: fit-content;
+    
+}
+.side-pic{
+    height: 20vw;
+}
+@media (max-width: 800px){
+    .bottom{
+       display: flex;
+       flex-direction: column-reverse;
+       justify-content: center;
+       text-align: center;
+       align-items: center;
+    }
+    .text-heading2{
+        position: static;
+    }
+    .side-pic {
+        height: 53vw;
+        margin-bottom: 25px;
+    }
+    .text-heading {
+        color: white;
+        width: 98%;
+        padding: 36px;
+        text-align: -webkit-left;
+    }
+  
+  
+}
+
+#button1{
+    background: none;
+    margin-right: 2px;
+    border: 2px solid white;
+    font-size: 1rem;
+    width: 20%;
+    padding: 10px;
+    border-radius: 10%;
+    color: white;
+
+}
+#button2{
+    background: none;
+    border: 2px solid white;
+    font-size: 1rem;
+    width: 20%;
+    padding: 10px;
+    border-radius: 10%;
+    color: white;
+
+}
+.pic-button{
+    text-align: center;
+}
+#pic-button1{
+    background: none;
+    margin-right: 2px;
+    border: 2px solid #27c5ff;
+    font-size: 1rem;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    color: #27c5ff;
+    margin-top: 5px;
+
+}
+#pic-button2{
+    background: #27c5ff;
+    color: #1D2026;
+    margin-right: 2px;
+    border: solid ;
+    font-size: 1rem;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+  
+    margin-top: 7px;
+
+}
+/* second part */
+.courses{
+    display: flex;
+}
+
+.last-text1{
+    width: 63%;
+    padding: 7%;
+    color: white;
+}
+
+.last-text1 h2{
+    margin-bottom: 30px;
+    margin-top: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.last-text1 h1{
+    margin-bottom: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+    font-size: 29px;
+}
+.last-text1 p{
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 14px;
+}
+
+.last-text2{
+    margin-top: 53px;
+    width: 30%;
+    padding: 3%;
+    color: white;
+    background-color: #292B33;
+    position: absolute;
+    left: 64%;
+    box-shadow: 2px 2px 30px rgb(22 21 21);
+
+}
+
+.last-text2 h2{
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 26px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+.last-text2 p{
+    margin-bottom: 20px;
+    font-weight: 300;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+@media (max-width: 800px){
+    .courses{
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       text-align: center;
+       align-items: center;
+    }
+    .last-text2{
+        position: static;
+        width: 80%;
+    }
+}
+
+#para{
+    margin-bottom: 50px;
+}
+
+/* last-picture-part */
+.about{
+    display: flex;
+}
+.girl{
+    width: 13vh;
+    margin-right: 24px;
+}
+
+.last-button{
+    padding: 10px 0px;
+    width: 250px;
+    margin: 40px auto;
+    margin-bottom: 60px;
+}
+.last-button button{
+    background: none;
+    text-align: center;
+    color: #27c5ff;
+    border: 2px solid rgb(39, 197, 255);
+    font-size: 1rem;
+    border-radius: 5px;
+    width: 250px;
+     padding: 10px 25px;
+    /* width: 250px; */
+    cursor: pointer;
+
+}
+@media (max-width: 800px){
+    .last-text1 {
+        width: 90%;
+        padding: 7%;
+        color: white;
+        text-align: justify;
+    }
+    #pic-button2 {
+        margin-top: 20px;
+    }
+}
+@media (max-width: 824px){
+    .profile{
+        display: none;
+    }
+    .top {
+        padding: 19px 100px 18px 20px;
+    }
+    .profile2{
+        left: 85%;
+    }
+    .text-heading p {
+        margin-bottom: 14px;
+    }
+
+    }
+    #name{
+        color: #27c5ff;
+        font-weight: 700;
+        font-size: 16px;
+    }
+    @media (max-width: 550px){
+        .text-heading {
+            color: white;
+            width: 100%;
+            padding: 18px;
+            text-align: -webkit-left;
+    }
+    #button1{
+        width: 35%;
+    }
+    #button2{
+        width: 44%;
+    }
+    }
